@@ -1,0 +1,29 @@
+package arrays;
+port java.util.*;
+public class _02isPrime{
+    
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int num = sc.nextInt();
+        if(isPrime(num) == true){
+            System.out.println("The given number is prime");
+        } else {
+            System.out.println("The number is not prime");
+        }
+    }
+
+    public static boolean isPrime(int num){
+        boolean isPrime = false;
+        if(num == 1){
+            System.out.println("One in neither prime nor composite");
+        }
+        for(int i = 2; i <= num/2; i++){
+            if(num % i == 0){
+                isPrime = true;
+            } else {
+                isPrime = false;
+            }
+        }
+        return isPrime;
+    }
+}
