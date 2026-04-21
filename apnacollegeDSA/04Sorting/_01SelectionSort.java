@@ -1,10 +1,9 @@
-    package Sorting;
-    import java.util.*;
-    public class _01SelectionSort {
+import java.util.*;
+public class _01SelectionSort {
         public static int[] selectionSort(int arr[]){
             for(int i = 0; i<arr.length-1; i++){
                 int minPos = i;
-                for(int j = i+1; j<arr.length-1; j++){
+                for(int j = i+1; j<arr.length; j++){
                     if(arr[minPos] > arr[j]){
                     minPos = j;
                     }
@@ -28,5 +27,6 @@
             for( int i = 0; i < arr.length; i++){
                 System.out.print(SortedArr[i] + " ");
             }
+            sc.close();
         }
     }

@@ -1,4 +1,3 @@
-package function;
 import java.util.*;
 public class _01TrailinXERo{
     public static void main(String[] args) {
@@ -7,15 +6,16 @@ public class _01TrailinXERo{
         int num = sc.nextInt();
         int trailingzero = CountZero(num);
         System.out.println(" " + trailingzero);
+        sc.close();
     }
     public static int CountZero(int num){
         int d = 0;
         int count = 0;
         if(num == 0 || num == 1){
-            return 1;
+            return 0;
         } else {
             if( num == 2 ){
-                return 2;
+                return 0;
             }
             else{
                 int fact = 1;

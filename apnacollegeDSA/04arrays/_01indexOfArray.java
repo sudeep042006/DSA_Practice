@@ -1,6 +1,4 @@
-package arrays;
-
-import java.util.*;
+import java.util.Scanner;
 
 public class _01indexOfArray {
     public static void main(String[] args) {
@@ -9,10 +7,17 @@ public class _01indexOfArray {
 
         System.out.println("Enter a no.");
         int n = sc.nextInt();
+        boolean found = false;
         for(int i = 0; i < num.length; i++){
             if(num[i] == n){
                 System.out.println((i+1) + " ");
+                found = true;
+                break;
             }
         }
+        if(!found){
+            System.out.println("Number not found");
+        }
+        sc.close();
     }
 }

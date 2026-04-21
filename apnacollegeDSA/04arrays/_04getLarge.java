@@ -1,4 +1,3 @@
-package arrays;
 import java.util.*;
 public class _04getLarge {
     public static int getLargest(int numbers[]){

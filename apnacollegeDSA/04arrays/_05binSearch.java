@@ -1,13 +1,14 @@
-package arrays;
 import java.util.*;
 public class _05binSearch{
 
     public static void binarySearch(int arr[], int key){
-        int low = arr[0], high = arr.length-1;
+        int low = 0, high = arr.length-1;
+        boolean found = false;
         while(low<=high){
             int mid = (low + high)/2;
             if(key == arr[mid]){
                 System.out.println("Found at position " + (mid+1));
+                found = true;
                 break;
             }
             else if(key < arr[mid]){
@@ -17,6 +18,9 @@ public class _05binSearch{
                 low = mid + 1;
             }
 
+        }
+        if(!found){
+            System.out.println("Element not found");
         }
     }
 

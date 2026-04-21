@@ -1,5 +1,3 @@
-package Sorting;
-
 public class _05CountSort {
     public static void countingSort(int arr[]){
         int largest = Integer.MIN_VALUE;
@@ -8,8 +6,8 @@ public class _05CountSort {
         }
         int count[] = new int[largest+1];
         for(int i = 0; i<arr.length; i++){
-            count[arr[i]]++;
-        }
+            count[arr[i]]++; // here count array is forming.. by counting.
+        }   // count[arr[0]] -> count[1] ++ -> it will increase that position's count
 
         //sorting
         int j=0;

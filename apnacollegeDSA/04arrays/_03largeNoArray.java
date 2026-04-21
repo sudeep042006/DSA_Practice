@@ -1,4 +1,3 @@
-package arrays;
 /* import java.util.*; */
 public class _03largeNoArray{
     public static void main(String[] args) {
