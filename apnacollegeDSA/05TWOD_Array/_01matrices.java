@@ -6,11 +6,8 @@ public class _01matrices {
     public static void searchElement(int num, int matrix[][]){
         for( int i = 0; i < n ; i++){
             for( int j = 0; j < m; j++){
-                if( num == matrix[i][j]){
-                    System.out.print("Found at " + (i+1)+""+(j+1)+  "th position");
-                }
-                else{
-                    System.out.println("Not in matrix");
+                if( matrix[i][j] == num){
+                    System.out.print("Found at (" + (i+1)+","+(j+1)+  ")  position");
                 }
             }
          }
