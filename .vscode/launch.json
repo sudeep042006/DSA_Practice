@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "_01matrices",
+      "request": "launch",
+      "mainClass": "_01matrices",
+      "projectName": "java dsa_ee3a8f90"
+    },
+    {
+      "type": "java",
       "name": "_05CountSort",
       "request": "launch",
       "mainClass": "Sorting._05CountSort",
