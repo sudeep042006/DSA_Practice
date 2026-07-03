@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "_01",
+      "request": "launch",
+      "mainClass": "_01",
+      "projectName": "java dsa_ee3a8f90"
+    },
+    {
+      "type": "java",
+      "name": "_03DiagonalMatrix",
+      "request": "launch",
+      "mainClass": "_03DiagonalMatrix",
+      "projectName": "java dsa_ee3a8f90"
+    },
+    {
+      "type": "java",
       "name": "_01matrices",
       "request": "launch",
       "mainClass": "_01matrices",
