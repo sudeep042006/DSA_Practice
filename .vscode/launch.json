@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "_875LC",
+      "request": "launch",
+      "mainClass": "DryRunLeetcode._875LC",
+      "projectName": "java dsa_ee3a8f90"
+    },
+    {
+      "type": "java",
       "name": "_01",
       "request": "launch",
       "mainClass": "_01",
